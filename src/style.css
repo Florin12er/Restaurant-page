@@ -1,3 +1,4 @@
-.menu {
-    background-color: red;
+.buttons {
+    display: flex;
+    gap: 40px;
 }
