@@ -1,4 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Yuji+Hentaigana+Akari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Noto+Sans+TC:wght@100&family=Pixelify+Sans&family=Yuji+Hentaigana+Akari&display=swap');
+
+
+body {
+    margin: 0px;
+    background-image: url("https://github.com/michalosman/restaurant-page/blob/main/dist/images/background.jpg?raw=true");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .buttons {
     display: flex;
-    gap: 40px;
+    justify-content: center;
+    gap: 25px;
+    
 }
+.color {
+    background-color: #18181b;
+    padding: 20px;
+    color: white;
+}
+button {
+    width: 110px;
+    height: 55px;
+    font-size: 30px;
+    color: white;
+    background-color: #18181b;
+    border: white;
+}
+.name {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+#page {
+    display: grid;
+    justify-content: center;
+    background-color: #18181b;
+    color: white;
+    padding: 20px;
+}
+img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.content {
+    margin: 80px;
+    display: grid;
+    justify-items: center;
+}
+.content>p {
+    font-size: 30px;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.map {
+    border-radius: 0;
+    width: 1000px;
+    height: 600px;
+}
+.title_menu {
+    font-family: 'Nosifer', sans-serif;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Yuji Hentaigana Akari', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.Contacts {
+    font-size: 30px;
+}
+.Contacts>div {
+    margin: 20px;
+}
+
+
+
